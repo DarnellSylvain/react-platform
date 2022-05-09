@@ -4,6 +4,7 @@ import React from "react";
 
 import "../App.css";
 import BasicTable from "../components/Table";
+import CustomModal from "../components/Modal";
 
 const ariaLabel = { "aria-label": "description" };
 
@@ -73,6 +74,7 @@ const Recipes: React.FC = () => {
           width="100%"
         >
           <BasicTable />
+          <CustomModal />
         </Box>
       </Box>
     </div>
