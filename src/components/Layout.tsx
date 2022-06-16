@@ -140,7 +140,7 @@ const Layout: React.FC<Props> = ({ children, window }) => {
     window !== undefined ? () => window().document.body : undefined;
 
   return (
-    <Box sx={{ display: "flex" }}>
+    <Box sx={{ display: "flex", paddingRight: 0 }}>
       <CssBaseline />
       <AppBar
         position="fixed"
